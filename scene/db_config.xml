@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<dbconfig version="2.0">
+		
+	<searchmenu>
+		<widget  type="gext_dropdown" name="Search By:">
+ 	  	    <value name = 'Owner Name:'>
+			</value>
+		</widget>
+	</searchmenu>
+
+    <drilldown>
+	      <!-- DEBUG - tablename must be before scanfields -->
+		  <dd_geom projection='EPSG_4326XXX' type='POINT'>
+		     <tablename>schema.tablename</tablename>
+			 <scanfields>these appear in searches</scanfields>
+			 <fts_attr>fulltextsearchtable</fts_attr>
+			 <alias_names>these link fields with other names</alias_names>
+  	      </dd_geom>
+   </drilldown>
+</dbconfig>

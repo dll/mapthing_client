@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<gmapstack >
+   <gconf>
+
+        <!-- ################################### -->
+
+		<param name="server_address">http://127.0.0.1</param>
+		<param name="php_url">http://127.0.0.1/mapthing/dlib</param>
+		<param name="linear_unit">m</param>		
+		<param name="max_extent">-10640000,3461000,-10449000,3684000</param>
+		<param name="initial_extent">10640005,3461005,-10448995,3683995</param>	
+		<param name="runlevel">normal</param> 
+        <param name="projection">epsg:900913</param>
+   		<param name="dispprojection">epsg:900913</param>
+		<param name="mapserver_url">cgi-bin/mapserv</param>
+		<param name="numzoomlevels">22</param>
+		<param name="graticulate">0</param>
+
+		<param name="mapfile_root">XXXX/</param>		
+        <!-- ################################### -->
+    		
+	</gconf>
+
+</gmapstack>

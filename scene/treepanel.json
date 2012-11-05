@@ -1,0 +1,36 @@
+[
+ {
+	      expanded   : true,
+          id         : "Base",
+          text       : "Base",
+          leaf       : false,
+		  checked    : false,
+          children   : [      
+			   {
+				  id       : "AerialWithLabels",
+				  text     : "AerialWithLabels",
+				  leaf     : true,
+				  icon     : "img/common/tree_icon/lineIcon.png"
+		  
+				},
+				{
+				  id       : "Road",
+				  text     : "Road",
+				  leaf     : true,
+				  checked  : true,
+				  icon     : "img/common/tree_icon/polyIcon.png"
+		  
+				},
+				{
+				  id       : "Aerial",
+				  text     : "Aerial",
+				  leaf     : true,
+				  checked  : true,
+				  icon     : "img/common/tree_icon/polyIcon.png"
+		  
+				}
+				
+				
+				]			  
+ }
+]

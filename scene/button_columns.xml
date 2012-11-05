@@ -1,0 +1,41 @@
+<grid_def>
+
+   <columns>
+
+     <column >
+	  <id>tool_zoom</id>
+      <header>zoom</header>
+	  <width>40</width>
+      <dataIndex>tool_zoom</dataIndex>
+     </column>
+	 
+     <column >
+	  <id>tool_hilite</id>
+      <header>highlight</header>
+	  <width>40</width>
+      <dataIndex>tool_hilite</dataIndex>
+     </column>
+	 
+     <column >
+	  <id>tool_result</id>
+      <header>get results</header>
+	  <width>40</width>
+      <dataIndex>tool_result</dataIndex>
+     </column>
+	 
+     <column >
+	  <id>layer_name</id>
+      <header>data layer</header>
+	  <width>60</width>
+      <dataIndex>layer_name</dataIndex>
+     </column>	 
+
+
+	 
+   </columns>
+ 
+
+   
+   
+</grid_def>
+ 

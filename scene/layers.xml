@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<catalog version="2.0">
+	
+
+<map-source name="Hybrid" type="bing" projection="EPSG:3648">
+<url>null</url>
+<api_key value="AqTGBsziZHIJYYxgivLBf0hVdrAk9mWO5cQcb8Yux8sW5M8c8opEC2lZqKR1ZZXf"/>
+<layer name="AerialWithLabels"/>
+<opacity value="1"/>
+<isvisible value="True"/></map-source>
+
+
+<map-source name="Road" type="bing" projection="EPSG:3648">
+<url>null</url>
+<api_key value="AqTGBsziZHIJYYxgivLBf0hVdrAk9mWO5cQcb8Yux8sW5M8c8opEC2lZqKR1ZZXf"/>
+<layer name="Road"/>
+<opacity value="1"/>
+<isvisible value="True"/></map-source>
+
+
+<map-source name="Aerial" type="bing" projection="EPSG:3648">
+<url>null</url>
+<api_key value="AqTGBsziZHIJYYxgivLBf0hVdrAk9mWO5cQcb8Yux8sW5M8c8opEC2lZqKR1ZZXf"/>
+<layer name="Aerial"/>
+<opacity value="1"/>
+<isvisible value="True"/></map-source>
+
+
+	
+	
+  <!--  ################################################################################  -->
+    	
+  	
+</catalog>
+

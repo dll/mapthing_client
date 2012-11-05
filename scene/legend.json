@@ -1,0 +1,22 @@
+{
+   "Layers": [
+        {
+            "image"       : "scene/legend/default.png"    ,	
+			"anno"        : "works on folders too!"        
+		}			   
+    ],
+   "Road": [
+        {
+            "image"       : "scene/legend/default.png"    ,	
+			"anno"        : "Bing Roads"        
+     	}			   
+    ]
+	
+    ,"Aerial": [
+        {
+            "image"  : "scene/legend/eee.png"    ,	
+			"anno"   : "Aerial Bing"    		
+		}
+    ]
+	
+}

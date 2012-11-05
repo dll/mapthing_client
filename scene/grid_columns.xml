@@ -1,0 +1,32 @@
+<grid_def>
+
+   <columns>
+
+     <column >
+	  <id>name</id>
+      <header>namede</header>
+	  <width>12</width>
+      <dataIndex>name</dataIndex>
+     </column>
+	 
+     <column >
+	  <id>column1</id>
+      <header>column1</header>
+	  <width>1</width>
+      <dataIndex>column1</dataIndex>
+     </column>
+	 
+     <column >
+	  <id>column2</id>
+      <header>column2</header>
+	  <width>1</width>
+      <dataIndex>column2</dataIndex>
+     </column>
+ 
+   </columns>
+ 
+
+   
+   
+</grid_def>
+ 

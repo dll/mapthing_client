@@ -1,0 +1,74 @@
+﻿<!--
+Copyright (c) December 3 ,2011 , Keith Legg , MetroPlanning
+Contact : keith@metroplanning.com
+ ---------------------------------------
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+ OR IMPLIED. YOU ARE ON YOUR OWN , DEAL WITH IT
+ ---------------------------------------
+-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+     <title>  Metroplanning Web GIS ,March 20,2012  </title>
+     <link rel="stylesheet" type="text/css" href="../../ext-3.4.0/resources/css/ext-all.css">   </link>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+     <style type="text/css">
+	     /*.x-panel-body {background-color: #e6e6e6;}*/
+ 	     #external_control {
+		
+		    position: absolute;
+			bottom : 0px;
+		    width: 100%;
+ 			background-color:#bfd4f0;
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;				
+ 	        border-color: #3399cc;
+            border-left-width: 2px;
+            border-left-style: solid;			
+		}
+		
+		#numselect {
+		    position: absolute;
+		    bottom : 0px;
+		    width: 100%;
+		    left : 350px;
+	        background-color:#bfd4f0;	
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;		   
+            border-left-width: 2px;
+            border-left-style: solid;
+	        border-color: #3399cc;
+		}	 
+	 
+	 </style>
+	 <script  src="../../proj4js/lib/proj4js-compressed.js"        type="text/javascript"></script>
+     <script src="../../open/OpenLayers.js"                       type="text/javascript"></script>
+     <script src="../../ext-3.4.0/adapter/ext/ext-base.js"        type="text/javascript"></script>
+	 <script src="../../ext-3.4.0/ext-all.js"                     type="text/javascript"></script>
+     <script src="../../GeoExt/lib/GeoExt.js"                     type="text/javascript"></script>
+     <script src="lib/klmt.js"                                    type="text/javascript"></script>
+     <script src="lib/guiloader.js"                               type="text/javascript"></script>
+	 <!--Each of these files is its own "mapplication"            ##-->
+     <script src="objectspace.js"                                 type="text/javascript"></script>
+     <script src="m_application.js"                               type="text/javascript"></script>
+	 <!--This is a loader-switch             ##-->
+     <script src="m_main.js"                                      type="text/javascript"></script>
+	
+    </head>
+	
+    <body >
+	
+     <div id="mainwind">     </div>
+       <span id="external_control"> 0,0</span>
+       <span id="numselect"></span>
+    </body>
+
+</html>
+
+
+
